@@ -1,0 +1,1640 @@
+Script started on 2023-07-10 16:22:44+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+[?2004h(base) ]0;mohit_pareek@TIGER01837: ~[01;32mmohit_pareek@TIGER01837[00m:[01;34m~[00m$ conda --verio[K[Ksion
+[?2004lconda 23.5.0
+[?2004h(base) ]0;mohit_pareek@TIGER01837: ~[01;32mmohit_pareek@TIGER01837[00m:[01;34m~[00m$ condat [K[K update conda
+[?2004lCollecting package metadata (current_repodata.json): - \ | / - \ | / - \ | / - \ | / - \ | / - \ done
+Solving environment: / - \ | / - \ | / - \ | / done
+
+# All requested packages already installed.
+
+[?2004h(base) ]0;mohit_pareek@TIGER01837: ~[01;32mmohit_pareek@TIGER01837[00m:[01;34m~[00m$ conda create --name snowflakes biopython
+[?2004lCollecting package metadata (current_repodata.json): - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - done
+Solving environment: | / - \ done
+
+## Package Plan ##
+
+  environment location: /home/mohit_pareek/miniconda3/envs/snowflakes
+
+  added / updated specs:
+    - biopython
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    biopython-1.78             |  py311h5eee18b_0         2.7 MB
+    blas-1.0                   |              mkl           6 KB
+    intel-openmp-2023.1.0      |   hdb19cb5_46305        17.1 MB
+    mkl-2023.1.0               |   h6d00ec8_46342       171.5 MB
+    mkl-service-2.4.0          |  py311h5eee18b_1          54 KB
+    mkl_fft-1.3.6              |  py311ha02d727_1         217 KB
+    mkl_random-1.2.2           |  py311ha02d727_1         291 KB
+    numpy-1.25.0               |  py311h08b1b3b_0          12 KB
+    numpy-base-1.25.0          |  py311hf175353_0         8.1 MB
+    pip-23.1.2                 |  py311h06a4308_0         3.2 MB
+    python-3.11.4              |       h955ad1f_0        32.7 MB
+    setuptools-67.8.0          |  py311h06a4308_0         1.4 MB
+    tbb-2021.8.0               |       hdb19cb5_0         1.6 MB
+    wheel-0.38.4               |  py311h06a4308_0          79 KB
+    ------------------------------------------------------------
+                                           Total:       239.1 MB
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      pkgs/main/linux-64::_libgcc_mutex-0.1-main 
+  _openmp_mutex      pkgs/main/linux-64::_openmp_mutex-5.1-1_gnu 
+  biopython          pkgs/main/linux-64::biopython-1.78-py311h5eee18b_0 
+  blas               pkgs/main/linux-64::blas-1.0-mkl 
+  bzip2              pkgs/main/linux-64::bzip2-1.0.8-h7b6447c_0 
+  ca-certificates    pkgs/main/linux-64::ca-certificates-2023.05.30-h06a4308_0 
+  intel-openmp       pkgs/main/linux-64::intel-openmp-2023.1.0-hdb19cb5_46305 
+  ld_impl_linux-64   pkgs/main/linux-64::ld_impl_linux-64-2.38-h1181459_1 
+  libffi             pkgs/main/linux-64::libffi-3.4.4-h6a678d5_0 
+  libgcc-ng          pkgs/main/linux-64::libgcc-ng-11.2.0-h1234567_1 
+  libgomp            pkgs/main/linux-64::libgomp-11.2.0-h1234567_1 
+  libstdcxx-ng       pkgs/main/linux-64::libstdcxx-ng-11.2.0-h1234567_1 
+  libuuid            pkgs/main/linux-64::libuuid-1.41.5-h5eee18b_0 
+  mkl                pkgs/main/linux-64::mkl-2023.1.0-h6d00ec8_46342 
+  mkl-service        pkgs/main/linux-64::mkl-service-2.4.0-py311h5eee18b_1 
+  mkl_fft            pkgs/main/linux-64::mkl_fft-1.3.6-py311ha02d727_1 
+  mkl_random         pkgs/main/linux-64::mkl_random-1.2.2-py311ha02d727_1 
+  ncurses            pkgs/main/linux-64::ncurses-6.4-h6a678d5_0 
+  numpy              pkgs/main/linux-64::numpy-1.25.0-py311h08b1b3b_0 
+  numpy-base         pkgs/main/linux-64::numpy-base-1.25.0-py311hf175353_0 
+  openssl            pkgs/main/linux-64::openssl-3.0.9-h7f8727e_0 
+  pip                pkgs/main/linux-64::pip-23.1.2-py311h06a4308_0 
+  python             pkgs/main/linux-64::python-3.11.4-h955ad1f_0 
+  readline           pkgs/main/linux-64::readline-8.2-h5eee18b_0 
+  setuptools         pkgs/main/linux-64::setuptools-67.8.0-py311h06a4308_0 
+  sqlite             pkgs/main/linux-64::sqlite-3.41.2-h5eee18b_0 
+  tbb                pkgs/main/linux-64::tbb-2021.8.0-hdb19cb5_0 
+  tk                 pkgs/main/linux-64::tk-8.6.12-h1ccaba5_0 
+  tzdata             pkgs/main/noarch::tzdata-2023c-h04d1e81_0 
+  wheel              pkgs/main/linux-64::wheel-0.38.4-py311h06a4308_0 
+  xz                 pkgs/main/linux-64::xz-5.4.2-h5eee18b_0 
+  zlib               pkgs/main/linux-64::zlib-1.2.13-h5eee18b_0 
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+blas-1.0             | 6 KB      |                                                                               |   0% 
+numpy-base-1.25.0    | 8.1 MB    |                                                                               |   0% [A
+
+pip-23.1.2           | 3.2 MB    |                                                                               |   0% [A[A
+
+
+intel-openmp-2023.1. | 17.1 MB   |                                                                               |   0% [A[A[A
+
+
+
+mkl_fft-1.3.6        | 217 KB    |                                                                               |   0% [A[A[A[A
+
+
+
+
+biopython-1.78       | 2.7 MB    |                                                                               |   0% [A[A[A[A[A
+
+
+
+
+
+tbb-2021.8.0         | 1.6 MB    |                                                                               |   0% [A[A[A[A[A[A
+
+
+
+
+
+
+wheel-0.38.4         | 79 KB     |                                                                               |   0% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+python-3.11.4        | 32.7 MB   |                                                                               |   0% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+mkl-service-2.4.0    | 54 KB     |                                                                               |   0% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+numpy-1.25.0         | 12 KB     |                                                                               |   0% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+mkl_random-1.2.2     | 291 KB    |                                                                               |   0% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+setuptools-67.8.0    | 1.4 MB    |                                                                               |   0% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  |                                                                               |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+pip-23.1.2           | 3.2 MB    | 3                                                                             |   0% [A[Ablas-1.0             | 6 KB      | ############################################################################# | 100% 
+
+
+
+mkl_fft-1.3.6        | 217 KB    | #####6                                                                        |   7% [A[A[A[A
+numpy-base-1.25.0    | 8.1 MB    | 1                                                                             |   0% [Ablas-1.0             | 6 KB      | ############################################################################# | 100% 
+
+
+
+
+biopython-1.78       | 2.7 MB    | 4                                                                             |   1% [A[A[A[A[A
+
+pip-23.1.2           | 3.2 MB    | ##########################3                                                   |  34% [A[A
+
+
+
+mkl_fft-1.3.6        | 217 KB    | ############################################################################# | 100% [A[A[A[A
+numpy-base-1.25.0    | 8.1 MB    | ####1                                                                         |   5% [A
+
+
+
+
+
+tbb-2021.8.0         | 1.6 MB    | 7                                                                             |   1% [A[A[A[A[A[A
+
+
+
+
+
+
+wheel-0.38.4         | 79 KB     | ###############5                                                              |  20% [A[A[A[A[A[A[A
+
+
+
+
+biopython-1.78       | 2.7 MB    | ############1                                                                 |  16% [A[A[A[A[A
+
+
+
+
+
+
+
+python-3.11.4        | 32.7 MB   |                                                                               |   0% [A[A[A[A[A[A[A[A
+numpy-base-1.25.0    | 8.1 MB    | ##############9                                                               |  19% [A
+
+
+
+
+
+tbb-2021.8.0         | 1.6 MB    | #################################################6                            |  64% [A[A[A[A[A[A
+
+
+
+
+
+
+
+python-3.11.4        | 32.7 MB   | ####2                                                                         |   6% [A[A[A[A[A[A[A[A
+numpy-base-1.25.0    | 8.1 MB    | #############################5                                                |  38% [A
+
+
+
+
+
+
+wheel-0.38.4         | 79 KB     | ############################################################################# | 100% [A[A[A[A[A[A[A
+
+
+
+
+
+
+wheel-0.38.4         | 79 KB     | ############################################################################# | 100% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+mkl-service-2.4.0    | 54 KB     | ######################6                                                       |  29% [A[A[A[A[A[A[A[A[A
+
+
+
+
+biopython-1.78       | 2.7 MB    | ##################################7                                           |  45% [A[A[A[A[A
+
+
+
+
+
+
+
+
+
+numpy-1.25.0         | 12 KB     | ############################################################################# | 100% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+python-3.11.4        | 32.7 MB   | #######7                                                                      |  10% [A[A[A[A[A[A[A[A
+numpy-base-1.25.0    | 8.1 MB    | #########################################2                                    |  54% [A
+
+
+
+
+biopython-1.78       | 2.7 MB    | ########################################################################7     |  94% [A[A[A[A[A
+
+
+
+
+
+
+
+
+mkl-service-2.4.0    | 54 KB     | ############################################################################# | 100% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+mkl-service-2.4.0    | 54 KB     | ############################################################################# | 100% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+mkl_random-1.2.2     | 291 KB    | ####2                                                                         |   5% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+python-3.11.4        | 32.7 MB   | ############                                                                  |  16% [A[A[A[A[A[A[A[A
+numpy-base-1.25.0    | 8.1 MB    | ######################################################                        |  70% [A
+
+
+
+
+
+
+
+
+
+
+
+setuptools-67.8.0    | 1.4 MB    | 8                                                                             |   1% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  |                                                                               |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+numpy-1.25.0         | 12 KB     | ############################################################################# | 100% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+tbb-2021.8.0         | 1.6 MB    | ############################################################################# | 100% [A[A[A[A[A[A
+
+
+
+
+
+
+
+python-3.11.4        | 32.7 MB   | ###############5                                                              |  20% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+setuptools-67.8.0    | 1.4 MB    | ###################################################################6          |  88% [A[A[A[A[A[A[A[A[A[A[A[A
+numpy-base-1.25.0    | 8.1 MB    | #################################################################1            |  85% [A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | 4                                                                             |   1% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+python-3.11.4        | 32.7 MB   | ###################1                                                          |  25% [A[A[A[A[A[A[A[A
+numpy-base-1.25.0    | 8.1 MB    | ############################################################################9 | 100% [A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | #2                                                                            |   2% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+mkl_random-1.2.2     | 291 KB    | ############################################################################# | 100% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+mkl_random-1.2.2     | 291 KB    | ############################################################################# | 100% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+python-3.11.4        | 32.7 MB   | #######################1                                                      |  30% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | ##                                                                            |   3% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+python-3.11.4        | 32.7 MB   | ###########################2                                                  |  35% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | ##8                                                                           |   4% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+intel-openmp-2023.1. | 17.1 MB   |                                                                               |   0% [A[A[A
+
+
+
+
+
+
+
+python-3.11.4        | 32.7 MB   | ##############################9                                               |  40% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | ###5                                                                          |   5% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+intel-openmp-2023.1. | 17.1 MB   | ###                                                                           |   4% [A[A[A
+
+
+
+
+
+
+
+python-3.11.4        | 32.7 MB   | ##################################7                                           |  45% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | ####2                                                                         |   6% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+intel-openmp-2023.1. | 17.1 MB   | #######8                                                                      |  10% [A[A[A
+
+
+
+
+
+
+
+python-3.11.4        | 32.7 MB   | ######################################1                                       |  50% [A[A[A[A[A[A[A[A
+
+
+intel-openmp-2023.1. | 17.1 MB   | ############2                                                                 |  16% [A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | ####8                                                                         |   6% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+python-3.11.4        | 32.7 MB   | #########################################5                                    |  54% [A[A[A[A[A[A[A[A
+
+
+intel-openmp-2023.1. | 17.1 MB   | #################4                                                            |  23% [A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | #####4                                                                        |   7% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+python-3.11.4        | 32.7 MB   | ############################################9                                 |  58% [A[A[A[A[A[A[A[A
+
+
+intel-openmp-2023.1. | 17.1 MB   | ######################2                                                       |  29% [A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | ######                                                                        |   8% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+python-3.11.4        | 32.7 MB   | ################################################1                             |  63% [A[A[A[A[A[A[A[A
+
+
+intel-openmp-2023.1. | 17.1 MB   | ##########################6                                                   |  35% [A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | ######6                                                                       |   9% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+python-3.11.4        | 32.7 MB   | ###################################################5                          |  67% [A[A[A[A[A[A[A[A
+
+
+intel-openmp-2023.1. | 17.1 MB   | ###############################9                                              |  41% [A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | #######3                                                                      |  10% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+python-3.11.4        | 32.7 MB   | #######################################################                       |  71% [A[A[A[A[A[A[A[A
+
+
+intel-openmp-2023.1. | 17.1 MB   | #####################################2                                        |  48% [A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | ########                                                                      |  10% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+python-3.11.4        | 32.7 MB   | ##########################################################6                   |  76% [A[A[A[A[A[A[A[A
+
+
+intel-openmp-2023.1. | 17.1 MB   | ##########################################1                                   |  55% [A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | ########6                                                                     |  11% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+python-3.11.4        | 32.7 MB   | ##############################################################4               |  81% [A[A[A[A[A[A[A[A
+
+
+intel-openmp-2023.1. | 17.1 MB   | ###############################################                               |  61% [A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | #########3                                                                    |  12% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+python-3.11.4        | 32.7 MB   | ##################################################################            |  86% [A[A[A[A[A[A[A[A
+
+
+intel-openmp-2023.1. | 17.1 MB   | ###################################################7                          |  67% [A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | #########9                                                                    |  13% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+python-3.11.4        | 32.7 MB   | #####################################################################4        |  90% [A[A[A[A[A[A[A[A
+
+
+intel-openmp-2023.1. | 17.1 MB   | ########################################################7                     |  74% [A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | ##########5                                                                   |  14% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+python-3.11.4        | 32.7 MB   | #########################################################################2    |  95% [A[A[A[A[A[A[A[A
+
+
+intel-openmp-2023.1. | 17.1 MB   | ##############################################################3               |  81% [A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | ###########2                                                                  |  15% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+python-3.11.4        | 32.7 MB   | ############################################################################# | 100% [A[A[A[A[A[A[A[A
+
+
+intel-openmp-2023.1. | 17.1 MB   | ###################################################################8          |  88% [A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | ############                                                                  |  16% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+intel-openmp-2023.1. | 17.1 MB   | ##########################################################################5   |  97% [A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | ############8                                                                 |  17% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | #############7                                                                |  18% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | ##############6                                                               |  19% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+setuptools-67.8.0    | 1.4 MB    | ############################################################################# | 100% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | ###############5                                                              |  20% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | ################3                                                             |  21% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | #################4                                                            |  23% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | ##################3                                                           |  24% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | ###################3                                                          |  25% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | ####################3                                                         |  26% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | #####################2                                                        |  28% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | ######################2                                                       |  29% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+pip-23.1.2           | 3.2 MB    | ############################################################################# | 100% [A[A
+
+pip-23.1.2           | 3.2 MB    | ############################################################################# | 100% [A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | #######################1                                                      |  30% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | ########################                                                      |  31% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | #########################1                                                    |  33% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | ##########################2                                                   |  34% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+biopython-1.78       | 2.7 MB    | ############################################################################# | 100% [A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | ###########################3                                                  |  35% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | ############################7                                                 |  37% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | ##############################1                                               |  39% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | ###############################4                                              |  41% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | ################################7                                             |  42% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | #################################8                                            |  44% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | ##################################9                                           |  45% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | ####################################2                                         |  47% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | #####################################3                                        |  49% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | ######################################5                                       |  50% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | #######################################7                                      |  52% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | ########################################9                                     |  53% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | ##########################################1                                   |  55% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | ###########################################2                                  |  56% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | ############################################6                                 |  58% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+intel-openmp-2023.1. | 17.1 MB   | ############################################################################# | 100% [A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | ##############################################                                |  60% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | ###############################################5                              |  62% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | ################################################9                             |  64% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | ##################################################3                           |  65% [A[A[A[A[A[A[A[A[A[A[A[A[A
+numpy-base-1.25.0    | 8.1 MB    | ############################################################################# | 100% [A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | ###################################################8                          |  67% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | ######################################################5                       |  71% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | #########################################################                     |  74% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | ###########################################################                   |  77% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | #############################################################                 |  79% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | ##############################################################9               |  82% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | #################################################################1            |  85% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | ###################################################################8          |  88% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+python-3.11.4        | 32.7 MB   | ############################################################################# | 100% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | ######################################################################2       |  91% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | ########################################################################5     |  94% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | ##########################################################################6   |  97% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | ############################################################################6 | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+mkl-2023.1.0         | 171.5 MB  | ############################################################################# | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A                                                                                                                        
+                                                                                                                        [A
+
+                                                                                                                        [A[A
+
+
+                                                                                                                        [A[A[A
+
+
+
+                                                                                                                        [A[A[A[A
+
+
+
+
+                                                                                                                        [A[A[A[A[A
+
+
+
+
+
+                                                                                                                        [A[A[A[A[A[A
+
+
+
+
+
+
+                                                                                                                        [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+                                                                                                                        [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+                                                                                                                        [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+                                                                                                                        [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+                                                                                                                        [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                        [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                        [A[A[A[A[A[A[A[A[A[A[A[A[A
+Preparing transaction: / - \ done
+Verifying transaction: / - \ | / - \ | / - \ | / - done
+Executing transaction: | / - \ | / done
+#
+# To activate this environment, use
+#
+#     $ conda activate snowflakes
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+[?2004h(base) ]0;mohit_pareek@TIGER01837: ~[01;32mmohit_pareek@TIGER01837[00m:[01;34m~[00m$ conda activate snowflake
+[?2004l
+EnvironmentNameNotFound: Could not find conda environment: snowflake
+You can list all discoverable environments with `conda info --envs`.
+
+
+[?2004h(base) ]0;mohit_pareek@TIGER01837: ~[01;32mmohit_pareek@TIGER01837[00m:[01;34m~[00m$ cpmf[K[K[Konda info --envs
+[?2004l# conda environments:
+#
+base                  *  /home/mohit_pareek/miniconda3
+snowflakes               /home/mohit_pareek/miniconda3/envs/snowflakes
+
+[?2004h(base) ]0;mohit_pareek@TIGER01837: ~[01;32mmohit_pareek@TIGER01837[00m:[01;34m~[00m$ conda activate snowflakes
+[?2004l[?2004h(snowflakes) ]0;mohit_pareek@TIGER01837: ~[01;32mmohit_pareek@TIGER01837[00m:[01;34m~[00m$ [K(snowflakes) ]0;mohit_pareek@TIGER01837: ~[01;32mmohit_pareek@TIGER01837[00m:[01;34m~[00m$ conda snowflakes python=3.9
+[?2004l
+CommandNotFoundError: No command 'conda snowflakes'.
+
+[?2004h(snowflakes) ]0;mohit_pareek@TIGER01837: ~[01;32mmohit_pareek@TIGER01837[00m:[01;34m~[00m$ condat[K[K[K[K[K[Kpu[Kython --version
+[?2004lPython 3.11.4
+[?2004h(snowflakes) ]0;mohit_pareek@TIGER01837: ~[01;32mmohit_pareek@TIGER01837[00m:[01;34m~[00m$ condat [K[K activeat[K[K[Kate base
+[?2004l[?2004h(base) ]0;mohit_pareek@TIGER01837: ~[01;32mmohit_pareek@TIGER01837[00m:[01;34m~[00m$ pty[K[Kython --veris[K[Ksion
+[?2004lPython 3.10.12
+[?2004h(base) ]0;mohit_pareek@TIGER01837: ~[01;32mmohit_pareek@TIGER01837[00m:[01;34m~[00m$ condata[K[K activate asnow[K[K[K[K[Ksnowflakes
+[?2004l[?2004h(snowflakes) ]0;mohit_pareek@TIGER01837: ~[01;32mmohit_pareek@TIGER01837[00m:[01;34m~[00m$ [K(snowflakes) ]0;mohit_pareek@TIGER01837: ~[01;32mmohit_pareek@TIGER01837[00m:[01;34m~[00m$ pi[ [K[Kp install pythn[Kon [K=3.9
+[?2004l[31mERROR: Invalid requirement: 'python=3.9'
+Hint: = is not a valid operator. Did you mean == ?[0m[31m
+[0m[?2004h(snowflakes) ]0;mohit_pareek@TIGER01837: ~[01;32mmohit_pareek@TIGER01837[00m:[01;34m~[00m$ pip install python=3.9-3.9[1P3.9=3.9
+[?2004l[31mERROR: Could not find a version that satisfies the requirement python==3.9 (from versions: none)[0m[31m
+[0m[31mERROR: No matching distribution found for python==3.9[0m[31m
+[0m[?2004h(snowflakes) ]0;mohit_pareek@TIGER01837: ~[01;32mmohit_pareek@TIGER01837[00m:[01;34m~[00m$ pip install python==3.9.0
+[?2004l[31mERROR: Could not find a version that satisfies the requirement python==3.9.0 (from versions: none)[0m[31m
+[0m[31mERROR: No matching distribution found for python==3.9.0[0m[31m
+[0m[?2004h(snowflakes) ]0;mohit_pareek@TIGER01837: ~[01;32mmohit_pareek@TIGER01837[00m:[01;34m~[00m$ pip install python==3.9.0[K[K[K8.17
+[?2004l[31mERROR: Could not find a version that satisfies the requirement python==3.8.17 (from versions: none)[0m[31m
+[0m[31mERROR: No matching distribution found for python==3.8.17[0m[31m
+[0m[?2004h(snowflakes) ]0;mohit_pareek@TIGER01837: ~[01;32mmohit_pareek@TIGER01837[00m:[01;34m~[00m$ pth=[K[K[Kython --c[Kversion
+[?2004lPython 3.11.4
+[?2004h(snowflakes) ]0;mohit_pareek@TIGER01837: ~[01;32mmohit_pareek@TIGER01837[00m:[01;34m~[00m$ python --versionip install python==3.8.17[K[K[K[K9.12
+[?2004l[31mERROR: Could not find a version that satisfies the requirement python==3.9.12 (from versions: none)[0m[31m
+[0m[31mERROR: No matching distribution found for python==3.9.12[0m[31m
+[0m[?2004h(snowflakes) ]0;mohit_pareek@TIGER01837: ~[01;32mmohit_pareek@TIGER01837[00m:[01;34m~[00m$ wg[Khich pty[K[Kyto[Khon
+[?2004l/home/mohit_pareek/miniconda3/envs/snowflakes/bin/python
+[?2004h(snowflakes) ]0;mohit_pareek@TIGER01837: ~[01;32mmohit_pareek@TIGER01837[00m:[01;34m~[00m$ which pythonpip install python==3.9.12[K[K[K[K1.[K0.9
+[?2004l[31mERROR: Could not find a version that satisfies the requirement python==3.10.9 (from versions: none)[0m[31m
+[0m[31mERROR: No matching distribution found for python==3.10.9[0m[31m
+[0m[?2004h(snowflakes) ]0;mohit_pareek@TIGER01837: ~[01;32mmohit_pareek@TIGER01837[00m:[01;34m~[00m$ pip install python==3.10.9"3.10.9[C[C[C[C[C[C"
+[?2004l[31mERROR: Could not find a version that satisfies the requirement python==3.10.9 (from versions: none)[0m[31m
+[0m[31mERROR: No matching distribution found for python==3.10.9[0m[31m
+[0m[?2004h(snowflakes) ]0;mohit_pareek@TIGER01837: ~[01;32mmohit_pareek@TIGER01837[00m:[01;34m~[00m$ pip install python=="3.10.9"[K[1P3.10.9[C[C[C[C[C[C[K[K[K[K[K[K[K[K
+[?2004l[31mERROR: Could not find a version that satisfies the requirement python (from versions: none)[0m[31m
+[0m[31mERROR: No matching distribution found for python[0m[31m
+[0m[?2004h(snowflakes) ]0;mohit_pareek@TIGER01837: ~[01;32mmohit_pareek@TIGER01837[00m:[01;34m~[00m$ pip u[Kinstall upgrade pip
+[?2004l[31mERROR: Could not find a version that satisfies the requirement upgrade (from versions: none)[0m[31m
+[0m[31mERROR: No matching distribution found for upgrade[0m[31m
+[0m[?2004h(snowflakes) ]0;mohit_pareek@TIGER01837: ~[01;32mmohit_pareek@TIGER01837[00m:[01;34m~[00m$ pip install upgrade pip[1P[1P[1P[1P[1P[1P[1P[1P[C[C[C[C[C[C[C[C[C[C[C
+[?2004lERROR: unknown command "upgrade"
+[?2004h(snowflakes) ]0;mohit_pareek@TIGER01837: ~[01;32mmohit_pareek@TIGER01837[00m:[01;34m~[00m$ pip upgrade pip[8@install [C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kupgrade --[K[K[K[K[K[K[K[K[K[Kinstall --gr[K[Kupgrade pip
+[?2004lRequirement already satisfied: pip in ./miniconda3/envs/snowflakes/lib/python3.11/site-packages (23.1.2)
+[?2004h(snowflakes) ]0;mohit_pareek@TIGER01837: ~[01;32mmohit_pareek@TIGER01837[00m:[01;34m~[00m$ pip install --upgrade pip[10P[C[C[C[C[C[C[C[C[C[C[C[8@install [C[C[C[C[C[C[C[C[C[C[C[5Ppython=="3.10.9"[2P3.10.9[1P3.10.9[1P3.10.9>3.10.9[C[C[C[C[C[C[K[K[K
+[?2004l[31mERROR: Could not find a version that satisfies the requirement python (from versions: none)[0m[31m
+[0m[31mERROR: No matching distribution found for python[0m[31m
+[0m[?2004h(snowflakes) ]0;mohit_pareek@TIGER01837: ~[01;32mmohit_pareek@TIGER01837[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2023-07-11 11:38:15+05:30 [COMMAND_EXIT_CODE="1"]
